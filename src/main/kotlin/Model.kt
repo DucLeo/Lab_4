@@ -26,8 +26,6 @@ interface ModelChangeListener {
     fun onModelChanged()
 }
 
-//var gameIsPaused: Boolean = false
-
 class Model {
     private val maze: MutableList<MutableList<Cell>> = createMaze()
     private var lengthMaze: Int = 0
